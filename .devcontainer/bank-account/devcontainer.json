@@ -1,0 +1,15 @@
+{
+  "name": "Bank Account (.NET 10)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1-10.0",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/BankAccount",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  },
+  "postCreateCommand": "dotnet restore && dotnet build",
+  "remoteUser": "vscode"
+}
