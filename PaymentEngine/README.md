@@ -16,6 +16,16 @@ dotnet build
 dotnet test
 ```
 
+## Testing
+
+You are free to use any test assertion or mocking libraries you are comfortable with. A few are already installed including FluentAssertions, Shouldly, Moq, FakeItEasy, and NSubstitute.
+
+To generate a code coverage report:
+
+```
+dotnet test --collect:"XPlat Code Coverage"
+```
+
 ## Before the Session
 
-Please read through the codebase and make sure you can build and run the tests. The pairing session will be guided — we will work together to extend and improve the existing code.
+Please read through the codebase and make sure you can build and run the tests. The pairing session will be guided - we will work together to extend and improve the existing code.
