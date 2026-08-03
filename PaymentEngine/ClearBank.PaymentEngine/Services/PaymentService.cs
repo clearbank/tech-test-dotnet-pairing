@@ -22,7 +22,7 @@ namespace ClearBank.PaymentEngine.Services
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.Bacs))
+                    else if (!account.AllowedPaymentSchemes.Contains(PaymentScheme.Bacs))
                     {
                         result.Success = false;
                     }
@@ -33,7 +33,7 @@ namespace ClearBank.PaymentEngine.Services
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.FasterPayments))
+                    else if (!account.AllowedPaymentSchemes.Contains(PaymentScheme.FasterPayments))
                     {
                         result.Success = false;
                     }
@@ -48,7 +48,7 @@ namespace ClearBank.PaymentEngine.Services
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.Chaps))
+                    else if (!account.AllowedPaymentSchemes.Contains(PaymentScheme.Chaps))
                     {
                         result.Success = false;
                     }
