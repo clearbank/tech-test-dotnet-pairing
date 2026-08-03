@@ -28,4 +28,8 @@ dotnet test --collect:"XPlat Code Coverage"
 
 ## Before the Session
 
-Please read through the codebase and make sure you can build and run the tests. The pairing session will be guided - we will work together to extend and improve the existing code.
+Please familiarise yourself with the codebase and make sure you can build and run the tests successfully.
+
+You are welcome to explore the solution, run the application, and experiment locally to understand how it works. However, please do not make or submit any code changes before the session.
+
+The pairing session will be guided, and we will work together through a series of exercises based on the existing codebase.
